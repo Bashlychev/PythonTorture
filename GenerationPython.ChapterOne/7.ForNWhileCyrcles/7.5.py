@@ -48,4 +48,58 @@
 # print('Минимальная цифра равна',miin)
 
 
+# Все вместе
 
+# n = int(input())
+# count = 0
+# total = 0
+# product = 1
+# l_digit = n % 10
+# while n !=0:
+#     last_digit = n % 10
+#     total += last_digit
+#     product *= last_digit
+#     count += 1
+#     first_digit = n 
+#     n = n // 10
+# print(total)
+# print(count)
+# print(product)
+# print(total/count)
+# print(first_digit)
+# print(first_digit+l_digit)
+
+# Вторая цифра
+# n = int(input())
+# while n > 9:
+#     digit = n % 10
+#     n = n //10
+# print(digit)
+
+# Одинаковые цифры
+# n = int(input())
+# last_digit = n % 10
+# flag = True
+# while n != 0:
+#     last2 =n % 10
+#     if last_digit != last2:
+#         flag = False
+#     n = n //10
+# if flag == True:
+#     print('YES')
+# else:
+#     print('NO')
+
+# Упорядоченные цифры 🌶️
+# n = int(input())
+# flag = True
+# while n >= 10:
+#     last =n % 10
+#     prlast = n % 100 // 10
+#     if last > prlast:
+#         flag = False
+#     n = n //10
+# if flag == True:
+#     print('YES')
+# else:
+#     print('NO')

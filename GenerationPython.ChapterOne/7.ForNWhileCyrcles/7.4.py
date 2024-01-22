@@ -56,3 +56,19 @@
 
 # Ведьмаку заплатите чеканной монетой
 
+
+# i = int(input())
+# counter = 0
+# while i >= 25:
+#     counter +=1
+#     i = i - 25
+# while i >=10:
+#     counter +=1
+#     i = i - 10
+# while i >= 5:
+#     counter +=1
+#     i = i - 5
+# while i >= 1:
+#     counter +=1
+#     i = i - 1
+# print(counter)

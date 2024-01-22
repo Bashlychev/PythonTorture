@@ -616,5 +616,20 @@
 
 # Only even numbers 🌶️
 
+# total = 0
+# for i in range(1,11):
+#     num = int(input())
+#     if num % 2 == 0:
+#         total+=1
+# if total == 10:
+#         print('YES')
+# else:print('NO')
 
+# Последовательность Фибоначчи 🌶️
 
+n = 5
+t1 = 1
+t2 = 1
+for i in range(1,n+1):
+    tot = (tot**(tot - i))+(tot**(tot -i))
+    print(tot,sep=' ',end='')
