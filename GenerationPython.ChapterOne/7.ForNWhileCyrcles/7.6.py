@@ -92,3 +92,21 @@
 #     if i in range(5,10) or i in range(17,38) or i in range(78,88):
 #         continue
 #     print(i)
+
+# n = 5
+# while n > 0:
+#     n -= 1
+#     print(n)
+# else:
+#     print('Цикл завершен.')
+
+# num = int(input())
+# n = num
+# while n != 0:
+#     last = n % 10
+#     if last == 7:
+#         print('Число', num, 'содержит цифру 7')
+#         break
+#     n //= 10
+# else:
+#     print('Число', num, 'не содержит цифру 7')
